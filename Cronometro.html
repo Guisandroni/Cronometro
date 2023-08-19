@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Pomodoro</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="/script.js" defer></script>
+  <link rel="stylesheet" href="/Css/style.css">
+  <link rel="icon" href="/Css/tomato.png">
+</head>
+
+<body>
+
+
+  <div id="pomodoro">
+    <div id="boxcontar">
+      <h1 id="contar">
+        00 : 00 : 00
+      </h1>
+    </div>
+    <div id="action">
+      <button id="reiniciar" action="reset">
+        <i class="fa-solid fa-rotate-right"></i>
+
+      </button>
+      <button id="ligar" action="start">
+        <i class="fa-solid fa-play"></i>
+
+
+      </button>
+      <button id="desligar" action="pause">
+        <i class="fa-solid fa-stop"></i>
+
+      </button>
+    </div>
+    <p id="msg" style="display: none;"> </p>
+
+
+  </div>
+
+</body>
+
+</html>
